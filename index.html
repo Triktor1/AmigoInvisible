@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <link rel="stylesheet" href="./css/game.css">
+    <script src="./lib/phaser.js"></script>
+	<link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+    <title>Amigo invisible</title>
+</head>
+
+<body>
+    <h1>Amigo indivisible</h1>
+    <h3>digo invisible</h3>
+    <h3>Control con WASD y espacio (en nivel de mejora 3)</h3>
+	<!-- Usamos la fuente para que sea cargada -->
+	<div style="font-family:sekuya; position:absolute; left:-1000px; visibility:hidden;">.</div>
+    <div id='juego'></div>
+    <script src="./src/game.js" type="module"></script>
+</body>
+
+</html>

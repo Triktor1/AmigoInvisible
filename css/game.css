@@ -1,0 +1,24 @@
+/*@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');*/
+
+@font-face {
+  font-family: 'sekuya';
+  src: url('../assets/Sekuya.ttf') format('truetype');
+}
+
+h1 {
+  text-align: center;
+  font-family: 'sekuya';
+  color: #6abe30;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'sekuya';
+  color: #6abe30;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #4b692f;
+}

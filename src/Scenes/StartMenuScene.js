@@ -45,8 +45,8 @@ export default class StartMenuScene extends Phaser.Scene {
             this.scene.start("MainScene");
         });
         Salir.setInteractive();
-        Salir.on('pointerdown', pointer => {
-            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        Salir.on('pointerdown', () => {
+            window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
         });
     }
 }
